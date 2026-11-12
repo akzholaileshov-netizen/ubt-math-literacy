@@ -11,7 +11,8 @@
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview",
     "validate": "tsx scripts/validate.ts",
-    "test": "vitest run"
+    "test": "vitest run",
+    "bot": "tsx src/bot/main.ts"
   },
   "dependencies": {
     "react": "^19.1.1",
